@@ -1,6 +1,8 @@
 # Router Visualization for Mixtral
 This is a straightforward project that provides a visual representation of the expert choices made by the Mixtral router for text generation.
 
+(Re-implementation of the Figure 8 from [Mixtral of Experts](https://arxiv.org/pdf/2401.04088.pdf) paper)
+
 In the visualization, each token in a text sample is colored with the first expert choice.
 
 The code is kept simplistic for further customization.
